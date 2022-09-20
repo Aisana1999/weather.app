@@ -1,11 +1,23 @@
 body {
-  background-image: url("../images/anime.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
   background-color: #a6d0e4;
+}
+
+.weather-app {
+  background-size: contain;
+  background-image: url("../images/anime.jpg");
+  box-shadow: #007cb9;
+  border-radius: 60px 60px 60px 60px;
+  border: #007cb9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: calc(100vh - 80px);
+  max-width: 630px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -42,8 +54,8 @@ hr {
   color: white;
 }
 .current-day {
-  margin: 0 auto 40px;
   color: white;
+  flex: 1;
 }
 .current-city {
   font-size: 25px;
@@ -67,6 +79,8 @@ hr {
 }
 .card {
   opacity: 0.7;
+
+  width: 90px;
 }
 .fahrenheitCelsius {
   position: 5px;
