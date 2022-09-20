@@ -26,9 +26,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
-    <h1 id="city"></h1>
-    <div id="temperature-description"></div>
-    <div class="container">
+    <div class="container weather-app py-4">
       <form class="search-engine" id="searchCity">
         <input
           class="search-box"
@@ -39,127 +37,121 @@
         />
 
         <input type="submit" value="Search" />
-            
-            <button type="submit" class="sent.tyb" id="button-location">
-              Current Location
-            </button>
+        <button type="click" class="sent-tyb" id="button-location">
+          Current Location
+        </button>
       </form>
-      <div class="container text-center current-day">
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-2 current-emoji material-symbols-outlined">
-            ☀️
-          </div>
-          <div class="col-2 main-information">
-            <div class="current-city" id="city">Vienna</div>
-            <div class="current-time" id="currentDate">Monday</div>
 
-            <div class="current-precipation">Precipation: 19%</div>
-            <div class="current-wind">Wind: 3 km/h</div>
+      <div id="temperature-description"></div>
+      <div class="text-center current-day">
+        <div class="row">
+          <div class="col-4 offset-8">
+            <div class="row">
+              <div class="col-12 current-emoji material-symbols-outlined">
+                ☀️
+              </div>
+              <div class="col-12">
+                <span class="current-temperature" id="currentTemp">25°C</span
+                ><span class="fahrenheitCelsius" id="fahrenheitCelsius"
+                  ><a href="#" class="celsius" id="celsius">°C</a>|<a
+                    href="#"
+                    class="fahrenheit"
+                    id="fahrenheit"
+                    >°F</a
+                  ></span
+                >
+              </div>
+              <div class="col-12 main-information ps-4">
+                <div class="current-city" id="city">Vienna</div>
+                <div class="current-time" id="currentDate">Monday</div>
+
+                <div class="current-precipation">Precipation: 19%</div>
+                <div class="current-wind">Wind: 3 km/h</div>
+              </div>
+            </div>
           </div>
-          <div class="col-2">
-            <span class="current-temperature" id="currentTemp">25°C</span
-            ><span class="fahrenheitCelsius" id="fahrenheitCelsius"
-              ><a href="#" class="celsius" id="celsius">°C</a>|<a
-                href="#"
-                class="fahrenheit"
-                id="fahrenheit"
-                >°F</a
-              ></span
-            >
-          </div>
-         
         </div>
       </div>
 
-      <div class="container">
+      <div class="forecast">
         <div class="row g-0 text-center">
           <div class="col">
-            <div class="card" >
+            <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Fri</h5>
                 <p class="card-text">
-                  <div class="material-symbols-outlined">
-                    clear_day
-                  </div>
+                  <span class="material-symbols-outlined"> clear_day </span>
                   28°C
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" >
+            <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Sat</h5>
                 <p class="card-text">
-                  <div class="material-symbols-outlined">
+                  <span class="material-symbols-outlined">
                     partly_cloudy_day
-                  </div>
+                  </span>
                   27°C
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" >
+            <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Sun</h5>
                 <p class="card-text">
-                  <div class="material-symbols-outlined">
-                    cloudy
-                  </div>
+                  <span class="material-symbols-outlined"> cloudy </span>
                   30°C
                 </p>
               </div>
             </div>
           </div>
-<div class="col">
-            <div class="card" >
+          <div class="col">
+            <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Mon</h5>
                 <p class="card-text">
-                  <div class="material-symbols-outlined">
+                  <span class="material-symbols-outlined">
                     partly_cloudy_night
-                  </div>
+                  </span>
                   28°C
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" >
+            <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Tue</h5>
                 <p class="card-text">
-                  <div class="material-symbols-outlined">
+                  <span class="material-symbols-outlined">
                     cloudy_snowing
-                  </div>
+                  </span>
                   28°C
                 </p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" >
+            <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Wed</h5>
                 <p class="card-text">
-                  <div class="material-symbols-outlined">
+                  <span class="material-symbols-outlined">
                     cloudy_snowing
-                  </div>
+                  </span>
                   25°C
                 </p>
               </div>
             </div>
           </div>
-          
-            </div>
-          </div>
         </div>
       </div>
     </div>
-
-
     <script src="src/index.js"></script>
   </body>
 </html>
