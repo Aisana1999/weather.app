@@ -5,12 +5,10 @@ body {
 }
 
 .weather-app {
-  background-size: contain;
   background-image: url("./images/anime.jpg");
   box-shadow: 1px 1px 1px blue;
   border-radius: 60px 60px 60px 60px;
-  border: #007cb9;
-  background-repeat: no-repeat;
+
   background-position: center center;
   background-attachment: fixed;
   min-height: calc(100vh - 80px);

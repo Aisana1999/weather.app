@@ -84,3 +84,5 @@ function showCelsius(event) {
 }
 let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", showCelsius);
+
+
