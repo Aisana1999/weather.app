@@ -6,7 +6,7 @@ body {
 
 .weather-app {
   background-image: url("./images/anime.jpg");
-  box-shadow: 1px 1px 1px blue;
+  box-shadow: 1px 1px 1px #a6d0e4;
   border-radius: 60px 60px 60px 60px;
 
   background-position: center center;
@@ -17,7 +17,11 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.btn-outline-info {
+  background-color: #a6d0e4;
+  color: white;
+  border-radius: 10px;
+}
 h1 {
   text-align: center;
   color: white;
