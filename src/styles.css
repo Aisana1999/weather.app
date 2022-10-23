@@ -40,7 +40,6 @@ hr {
 }
 .search-engine {
   text-align: center;
-
   opacity: 0.7;
 }
 .search-box {
@@ -75,7 +74,9 @@ hr {
 .current-temperature {
   font-size: 50px;
   color: white;
+  margin-right: 20px;
 }
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
@@ -87,12 +88,14 @@ hr {
 
   width: 90px;
 }
-.fahrenheitCelsius {
+#fahrenheitCelsius {
   position: 5px;
   bottom: 35px;
   left: 10px;
   color: white;
+  margin-right: 20px;
 }
+
 .fahrenheit,
 .celsius {
   color: white;
