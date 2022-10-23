@@ -18,24 +18,24 @@ body {
   flex-direction: column;
 }
 .btn-outline-info {
-  background-color: #a6d0e4;
+  background-color: #5fc9f3;
   color: white;
   border-radius: 10px;
 }
 h1 {
   text-align: center;
-  color: white;
+  color: #1e56a0;
   margin: 40px auto;
 }
 h2 {
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: #1e56a0;
 }
 hr {
   color: white;
   height: 3px;
-  background-color: white;
+  background-color: #1e56a0;
   width: auto;
 }
 .search-engine {
