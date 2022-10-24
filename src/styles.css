@@ -61,6 +61,8 @@ hr {
   color: white;
   flex: 1;
   text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
 }
 .current-city {
   font-size: 25px;
